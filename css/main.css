@@ -1,0 +1,91 @@
+/** @format */
+
+html {
+  --main-color: #272b30;
+}
+
+body {
+  background-color: var(--main-color);
+}
+.bacImage img {
+  object-fit: cover;
+  max-height: 35vh;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nerko One", cursive;
+}
+p,
+span {
+  font-family: "Comfortaa", cursive;
+}
+.navbar {
+  /* color: white; */
+  background-color: #3a497b;
+  border-radius: 15px;
+  font-family: "Nerko One", cursive;
+}
+.navbar-expand-lg .navbar-collapse {
+  flex-grow: unset;
+}
+.navbar-brand img {
+  width: 50px;
+  height: 50px;
+}
+.navbar-brand h2 {
+  vertical-align: middle;
+}
+.navbar-expand-lg .navbar-collapse .navbar-nav {
+  vertical-align: middle;
+}
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.show {
+  font-family: "Nerko One", cursive;
+  color: white !important;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #09c !important;
+  transition: color 0.5s;
+}
+
+.tag {
+  background-color: RGBA(13, 110, 253, var(--bs-bg-opacity, 1)) !important;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 11px;
+}
+.card {
+  background-color: #272b30;
+  filter: grayscale(0.7);
+  transition: filter 0.5s, transform 0.5s;
+}
+.card:hover {
+  filter: grayscale(0);
+  transform: scale(1.08);
+}
+.badge {
+  background-color: #32383e;
+  padding: 0.35em 0.65em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 0.375rem;
+}
+
+.specificGameSection {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--main-color);
+}
